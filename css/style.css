@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Istok+Web&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit; }
+
+/*--------------------*/
+/*Адаптив изображений*/
+.ibg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; }
+
+.ibg img {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden; }
+
+/*--------------------*/
+body {
+  background: #1c1c1c; }
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+@media (max-width: 1240px) {
+  .container {
+    max-width: 1264px; } }
+
+@media (max-width: 1064px) {
+  .container {
+    max-width: 807px; } }
+
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+    padding: 0 15px; } }
+
+.header {
+  padding: 7px 0; }
+
+.header__body {
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.header__logo {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 188px;
+  flex: 0 0 188px; }
+  .header__logo img {
+    width: 100%; }
+
+.header__nav {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  max-width: 826px;
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.header__link a {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white; }
+
+.header__buttons {
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.header-language {
+  width: 94px;
+  height: 50px;
+  border-radius: 17px;
+  border: 1px solid #eaeaea;
+  position: relative;
+  overflow: hidden;
+  margin-right: 20px; }
+
+.header-language__iten {
+  position: absolute;
+  top: 0;
+  width: 51px;
+  height: 100%;
+  border-radius: 17px;
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .header-language__iten span {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff; }
+  .header-language__iten._active {
+    background: #fff; }
+  .header-language__iten._active span {
+    color: #cc3c3c; }
+
+.header-language__iten_ru {
+  left: 0; }
+
+.header-language__iten_en {
+  right: 0; }
+
+.header-search {
+  background: #cc3c3c;
+  border-radius: 20px;
+  height: 50px;
+  width: 74px;
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.index-block {
+  background-image: url("../img/header/bacgraund.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 1280px; }
