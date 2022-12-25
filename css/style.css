@@ -217,9 +217,110 @@ body {
   -ms-flex-align: center;
   align-items: center; }
 
+.index-block-header {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(9px);
+  backdrop-filter: blur(9px);
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 15px 30px;
+  margin: 0 -30px;
+  margin-top: 40px; }
+  @media (max-width: 1460px) {
+    .index-block-header {
+      margin: 0;
+      margin-top: 40px; } }
+
+.index-block-header__text {
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.index-block-header__text_big {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin-right: 14px; }
+
+.index-block-header__text_small {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white; }
+
+.index-block-slaid {
+  padding: 40px 140px; }
+
+.index-block-slaid__title {
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin-bottom: 12px; }
+
+.index-block-slaid__text {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cfcfcf;
+  margin-bottom: 88px; }
+
+.index-block-slaid__button {
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 57px;
+  position: relative;
+  padding-left: 50px; }
+  .index-block-slaid__button span {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #fff; }
+  .index-block-slaid__button img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 100%; }
+
 .index-block {
   background-image: url("../img/header/bacgraund.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 1280px; }
+  padding-bottom: 480px; }

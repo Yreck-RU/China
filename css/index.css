@@ -1,0 +1,125 @@
+.header {
+  padding: 7px 0; }
+
+.header__body {
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.header__logo {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 188px;
+  flex: 0 0 188px; }
+  .header__logo img {
+    width: 100%; }
+
+.header__nav {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  max-width: 826px;
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.header__link a {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white; }
+
+.header__buttons {
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.header-language {
+  width: 94px;
+  height: 50px;
+  border-radius: 17px;
+  border: 1px solid #eaeaea;
+  position: relative;
+  overflow: hidden;
+  margin-right: 20px; }
+
+.header-language__iten {
+  position: absolute;
+  top: 0;
+  width: 51px;
+  height: 100%;
+  border-radius: 17px;
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .header-language__iten span {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff; }
+  .header-language__iten._active {
+    background: #fff; }
+  .header-language__iten._active span {
+    color: #cc3c3c; }
+
+.header-language__iten_ru {
+  left: 0; }
+
+.header-language__iten_en {
+  right: 0; }
+
+.header-search {
+  background: #cc3c3c;
+  border-radius: 20px;
+  height: 50px;
+  width: 74px;
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.index-block {
+  background-image: url("../img/header/bacgraund.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 1280px; }
