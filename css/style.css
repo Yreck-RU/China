@@ -267,6 +267,10 @@ body {
   text-align: left;
   color: white; }
 
+.index-block-slaider__body {
+  position: relative;
+  padding-bottom: 480px; }
+
 .index-block-slaid {
   padding: 40px 140px; }
 
@@ -319,8 +323,16 @@ body {
     height: 100%; }
 
 .index-block {
-  background-image: url("../img/header/bacgraund.png");
+  background-image: url("../img/header/bacgraund.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 480px; }
+  position: relative; }
+
+.index-block__brago {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 600px; }
+  .index-block__brago img {
+    width: 100%; }
