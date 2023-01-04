@@ -1490,3 +1490,340 @@ input[type="radio"]:checked + label:after {
   letter-spacing: -0.01em;
   color: #fff;
   padding-right: 17px; }
+
+.business-ideas {
+  background: #eaeaea;
+  padding: 80px 0;
+  overflow: hidden; }
+
+.business-ideas-header {
+  padding-bottom: 80px;
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative; }
+  .business-ideas-header > * {
+    position: relative;
+    z-index: 2; }
+
+.business-ideas-header__img {
+  position: absolute;
+  right: 30px;
+  width: 1150px;
+  top: 0px;
+  z-index: 1; }
+
+.business-ideas-header__content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto; }
+
+.business-ideas-header__title {
+  font-family: Inter;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 99px;
+  color: #000000;
+  margin-bottom: 17px; }
+  .business-ideas-header__title span {
+    color: #CC3C3C; }
+
+.business-ideas-header__text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #929292; }
+
+.business-ideas-header__button {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 180px;
+  flex: 0 0 180px;
+  height: 266px;
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  background: rgba(234, 234, 234, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .business-ideas-header__button span {
+    font-size: 32px;
+    color: #CC3C3C; }
+
+.business-ideas-footer {
+  background: #fff;
+  min-height: 350px;
+  padding: 40px 60px;
+  border-radius: 60px;
+  position: relative;
+  z-index: 10;
+  margin: 0 -20px;
+  overflow: hidden; }
+
+.business-ideas-footer__title {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #000;
+  margin-bottom: 28px; }
+
+.business-ideas-slaider {
+  width: 112%;
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  left: -40px;
+  position: relative; }
+
+.business-ideas-slaid {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 21.6666667%;
+  flex: 0 0 21.6666667%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  padding: 0 40px; }
+  .business-ideas-slaid.business-ideas-slaid_big {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 35%;
+    flex: 0 0 35%; }
+  .business-ideas-slaid.business-ideas-slaid_big .business-ideas-slaid__title {
+    font-family: Inter;
+    font-size: 40px;
+    line-height: 40px; }
+  .business-ideas-slaid:before {
+    content: "";
+    width: 1px;
+    background: #E3E3E3;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+.business-ideas-slaid__wrapper {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto; }
+
+.business-ideas-slaid__img {
+  padding-top: 53%;
+  background: #111;
+  border-radius: 20px;
+  margin-bottom: 11px; }
+
+.business-ideas-slaid__title {
+  font-family: Inter;
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #000;
+  margin-bottom: 13px; }
+
+.business-ideas-slaid__text {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  width: 90%;
+  letter-spacing: -0.01em;
+  color: #BEBEBE; }
+
+.business-ideas-footer__button-wraper {
+  border-top: 1px solid #DADADA;
+  margin-top: 35px;
+  padding-top: 35px; }
+  .business-ideas-footer__button-wraper .index-block-slaid__button {
+    width: 250px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+
+.tourism {
+  background: #eaeaea;
+  padding-bottom: 80px;
+  overflow: hidden; }
+
+.tourism-header {
+  position: relative; }
+  .tourism-header > * {
+    position: relative;
+    z-index: 2; }
+
+.tourism-header__img {
+  position: absolute;
+  right: 120px;
+  top: 0;
+  width: 800px;
+  z-index: 1; }
+
+.tourism-header__body {
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.tourism-header-panel {
+  background: #fff;
+  border-radius: 50px;
+  min-width: 381px;
+  padding: 22px 44px;
+  display: inline-block;
+  margin-bottom: 24px; }
+
+.tourism-header-panel__wrapper {
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.tourism-header-panel__text {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #000000;
+  margin-right: 12px; }
+
+.tourism-header-panel__namber {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .tourism-header-panel__namber span {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #000;
+    margin-left: 7px; }
+
+.tourism-header__title {
+  font-family: Inter;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: -0.03em;
+  color: #000; }
+  .tourism-header__title span {
+    color: #CC3C3C; }
+
+.tourism-header__button {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 180px;
+  flex: 0 0 180px;
+  height: 209px;
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  background: rgba(234, 234, 234, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .tourism-header__button span {
+    font-size: 32px;
+    color: #CC3C3C; }
+
+.tourism-header-slaider {
+  margin-top: 22px; }
+
+.tourism-header-slaider__title {
+  font-family: Inter;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+  margin-bottom: 12px; }
+
+.tourism-header-slaider__body {
+  font-size: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.tourism-headerr-slaid {
+  background: rgba(0, 0, 0, 0.2);
+  min-height: 131px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 15%;
+  flex: 0 0 15%;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.tourism-headerr-slaid__text {
+  font-family: Inter;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #fff; }
+
+.tourism-footer {
+  background: #fff;
+  min-height: 350px;
+  padding: 40px 60px;
+  border-radius: 60px;
+  position: relative;
+  z-index: 10;
+  margin: 0 -20px;
+  overflow: hidden;
+  margin-top: 34px; }
